@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="209.0" prefWidth="666.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="272.0" layoutY="7.0" text="실시간 투/개표결과" />
+      <Label layoutX="47.0" layoutY="51.0" text="유권자수" />
+      <Label layoutX="130.0" layoutY="51.0" text="투표수" />
+      <Label layoutX="212.0" layoutY="51.0" text="투표율" />
+      <Label layoutX="280.0" layoutY="51.0" text="개표수" />
+      <Label layoutX="351.0" layoutY="51.0" text="개표율" />
+      <Label layoutX="426.0" layoutY="51.0" text="유효표" />
+      <Label layoutX="490.0" layoutY="51.0" text="무효표" />
+      <Label layoutX="573.0" layoutY="51.0" text="백표" />
+      <Label fx:id="electrorate" layoutX="60.0" layoutY="128.0" text="620" />
+      <Label fx:id="votenum" layoutX="133.0" layoutY="128.0" text="Label" />
+      <Label fx:id="voterate" layoutX="215.0" layoutY="128.0" text="Label" />
+      <Label fx:id="ballot" layoutX="283.0" layoutY="128.0" text="Label" />
+      <Label fx:id="ballotrate" layoutX="354.0" layoutY="128.0" text="Label" />
+      <Label fx:id="validballot" layoutX="429.0" layoutY="128.0" text="Label" />
+      <Label fx:id="invalidballot" layoutX="493.0" layoutY="128.0" text="Label" />
+      <Label fx:id="whiteballot" layoutX="570.0" layoutY="128.0" text="Label" />
+      <Label layoutX="308.0" layoutY="157.0" text="당선자" />
+      <Label fx:id="EP" layoutX="310.0" layoutY="180.0" text="Label" />
+   </children>
+</AnchorPane>
