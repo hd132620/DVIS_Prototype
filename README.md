@@ -1,10 +1,11 @@
 # DVIS_Prototype
-디미고 투표관리시스템(DVIS) 관리자 모듈 개발입니다.
+디미고 투표관리시스템(DVIS) 관리자 모듈
 
 디미고 출구조사/실시간 개표 정보 시스템(DVIS) 프로젝트
 
 작성일자: 2016 / 05 / 09
 
+사용 라이브러리 : JavaFX 0.8
 
 DVIS ( Dimigo Vote Information System )
 서론
